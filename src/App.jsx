@@ -14,7 +14,13 @@ function App() {
         type='number'
         placeholder='Wasser(ml)'
         />
-        <button className='water-save-button'>Getrunken</button>
+        <div className='buttons'>
+          <button>100ml</button>
+          <button>350ml</button>
+          <button>600ml</button>
+          <button>1000ml</button>
+        </div>
+        
 
       </div> 
     </div>
